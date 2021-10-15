@@ -1,0 +1,15 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+body{
+  font-family: serif;
+}
+.banner-text{
+  width: 100%;
+  position: absolute;
+}
+.banner-text ul{
+  height: 50px;
+  float: right;
+}
