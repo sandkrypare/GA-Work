@@ -4,7 +4,7 @@
 }
 body{
   font-family: fantasy;
-  
+
 }
 .banner-text{
   width: 100%;
@@ -13,4 +13,11 @@ body{
 .banner-text ul{
   height: 50px;
   float: right;
+}
+.banner-text ul li{
+  display: inline-block;
+  padding: 40px 15px;
+  text-transform: uppercase;
+  color: #fff;
+  font-size: 20px;
 }
