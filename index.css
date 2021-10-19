@@ -21,7 +21,7 @@ body{
   color: white;
   font-size: 20px;
 }
-.banner-text ul li a{
+.banner-text ul li button{
   display: inline-block;
   padding: 40px 15px;
   text-transform: uppercase;
