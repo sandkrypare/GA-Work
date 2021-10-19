@@ -21,6 +21,13 @@ body{
   color: white;
   font-size: 20px;
 }
+.banner-text ul li a{
+  display: inline-block;
+  padding: 40px 15px;
+  text-transform: uppercase;
+  color: white;
+  font-size: 20px;
+}
 .banner-text h2{
   text-align: center;
   color: white;
