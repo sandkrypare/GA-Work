@@ -32,14 +32,16 @@ body{
   width: 100%;
   height: 100vh;
 }
-.box-area{
+/*
+.box-area{ 
   position: static;
   top: 0;
   left: 0;
   width: 100%;
-  height: 100%;
-  overflow: hidden;
-}
+  height: 100%; 
+  overflow: hidden; 
+} 
+*/
 .box-area li{
   position: absolute;
   display: block;
