@@ -91,7 +91,7 @@ body{
   animation-delay: 3.5s;
 }
 @keyframes animate{
-    100%{
+    50%{
       transform: translateY(-800px) rotate(360deg);
       opacity: 0;
     }
