@@ -14,7 +14,7 @@
     height: 50px;
     float: right;
   }
-  .banner-text ul li{
+  .banner-text ul li a{
     display: inline-block;
     padding: 40px 15px;
     text-transform: uppercase;
