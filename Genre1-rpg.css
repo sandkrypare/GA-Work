@@ -1,29 +1,50 @@
-*{
-    margin: 0;
-    padding: 0;
-  }
-  body{
-    font-family: fantasy;
+
+body{
+  font-family: fantasy;
+  background-color: darkslategray;
+}
+.banner-text{
+  width: 100%;
+  position: absolute;
+}
+.banner-text ul{
+  height: 50px;
+  float: right;
+}
+.banner-text ul li a{
+  display: inline-block;
+  padding: 40px 15px;
+  text-transform: uppercase;
+  color: white;
+  font-size: 20px;
+}
+.animation-area{
+  background: linear-gradient(to left, #3595bb, #310dd4);
+  width: 100%;
+  height: 100vh;
+}
+#witcherImage {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 10px;
+  width: 60%;
+  height: 33.6%;
+  padding: 10px;
+  border-style: groove;
+  border-width: 3px;
+  border-color: black;
+}
+#rubrik1 {
+  margin: auto;
+  width: 75%;
+  font-size: 12;
+  text-align: center;
+  padding: 10px;
+  background-color: #3595bb;
+  border-style: double;
+  border-width: 5px 5px;
+}
   
-  }
-  .banner-text{
-    width: 100%;
-    position: absolute;
-  }
-  .banner-text ul{
-    height: 50px;
-    float: right;
-  }
-  .banner-text ul li a{
-    display: inline-block;
-    padding: 40px 15px;
-    text-transform: uppercase;
-    color: white;
-    font-size: 20px;
-  }
-  .animation-area{
-    background: linear-gradient(to left, #3595bb, #310dd4);
-    width: 100%;
-    height: 100vh;
-  }
+
   
