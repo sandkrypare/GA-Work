@@ -65,6 +65,26 @@ class Particle {
                 this.y += 10;
             }
         }
+        //Move particle
+        this.x += this.directionX;
+        this.y += this.directionY
+        //Draw particle
+        this.draw();
         
+    }
+}
+
+// Create particle array
+function init() {
+    particlesArray = [];
+    let numberOfParticles = (canvas.height * canvas.width) / 9000;
+    for (let i = 0; i < numberOfParticles; i++) {
+        let size = (Math.random() * 5) + 1;
+        let x = (Math.random() * ((innerWidth - size * 2 ) - (size * 2 )) + size * 2);
+        let y = (Math.random() * ((innerHeight - size * 2 ) - (size * 2 )) + size * 2);
+        let directionX = (Math.random() * 5) - 2.5;
+        let directionY = (Math.random() * 5) - 2.5;
+        
+        let color = '#8C5523'
     }
 }

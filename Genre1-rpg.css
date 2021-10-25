@@ -1,3 +1,8 @@
+* {
+  box-sizing: border-box;
+  padding: 0px;
+  margin: 0px;
+}
 
 body{
   font-family: fantasy;
@@ -23,6 +28,38 @@ body{
   width: 100%;
   height: 100vh;
 }
+
+.navigation {
+  list-style-type: none;
+  width: 100%;
+  margin-bottom: 0px 0px 0px;
+  padding: none;
+  overflow: hidden;
+  background-color: black;
+}
+.options {
+  float: left;
+  padding: none;
+}
+.links {
+  text-align: center;
+  padding: 20px;
+  color: white;
+}
+.links:hover {
+  background-color: goldenrod;
+}
+
+#rubrik1 {
+  margin: auto;
+  width: 50%;
+  font-size: 12;
+  text-align: center;
+  padding: 10px;
+  background-color: #3595bb;
+  border-style: double;
+  border-width: 5px 5px;
+}
 #witcherImage {
   display: block;
   margin-left: auto;
@@ -35,16 +72,9 @@ body{
   border-width: 3px;
   border-color: black;
 }
-#rubrik1 {
-  margin: auto;
-  width: 75%;
-  font-size: 12;
-  text-align: center;
-  padding: 10px;
-  background-color: #3595bb;
-  border-style: double;
-  border-width: 5px 5px;
+#tipsRPG {
+  width: 100%;
+  max-height: none;
+  padding: none;
+  border: 5px double black;
 }
-  
-
-  
