@@ -84,7 +84,21 @@ function init() {
         let y = (Math.random() * ((innerHeight - size * 2 ) - (size * 2 )) + size * 2);
         let directionX = (Math.random() * 5) - 2.5;
         let directionY = (Math.random() * 5) - 2.5;
-        
         let color = '#8C5523'
+
+        particlesArray.push(new Particle(x, y, directionX, directionY, size, color));
     }
 }
+
+//Animation loop
+function animate() {
+    requestAnimationFrame(animate);
+    ctx.clearRect(0,0,innerWidth, innerHeight);
+
+    for (let i = 0; i < particlesArray.length; i++) {
+        particlesArray[i].update();
+    }
+
+}
+init();
+animate();
