@@ -12,7 +12,7 @@ background: radial-gradient(#ffc38c, #ff9b40)
 }
 
 .options {
-  float: none;
+  float: right;
   padding: none;
   position: absolute;
 }
