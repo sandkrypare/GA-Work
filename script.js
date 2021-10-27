@@ -99,7 +99,7 @@ function connect() {
             (particlesArray[a].x - particlesArray[b].x)) + ((particlesArray[a].y - particlesArray[b].y) * 
             (particlesArray[a].y - particlesArray[b].y));
             if (distance < (canvas.width/7) * (canvas.height/7)) {
-                opacityValue = 1 - (distance/20000);
+                opacityValue = 1 - (distance/10000);
                 ctx.strokeStyle='rgba(140,85,31, ' + opacityValue + ')';
                 ctx.lineWidth = 1;
                 ctx.beginPath();
