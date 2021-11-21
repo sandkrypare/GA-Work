@@ -20,9 +20,23 @@ background: radial-gradient(#ffc38c, #ff9b40)
 .options {
   float: left;
   padding: none;
-}
-.links {
+  display: block;
   text-align: center;
-  padding: 20px;
+  padding: 15px;
+}
+
+.links {
   color: white;
+}
+
+.options:hover {
+  background-color:red;
+}
+
+#introduktion {
+  position: absolute;
+  color: red;
+  padding-top: 15%;
+  padding-left: 10%;
+  font-size: 30px;
 }
