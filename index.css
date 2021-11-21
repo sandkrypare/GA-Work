@@ -32,11 +32,3 @@ background: radial-gradient(#ffc38c, #ff9b40)
 .options:hover {
   background-color:red;
 }
-
-#introduktion {
-  position: absolute;
-  color: red;
-  padding-top: 15%;
-  padding-left: 10%;
-  font-size: 30px;
-}
