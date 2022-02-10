@@ -18,7 +18,7 @@ background: radial-gradient(#8ce4ff, #5340ff)
 }
 
 .options {
-  float: left;
+  float: center;
   padding: none;
   display: block;
   text-align: center;
