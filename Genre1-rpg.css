@@ -1,80 +1,34 @@
 * {
+  margin: 0;
+  padding: 0;
   box-sizing: border-box;
-  padding: 0px;
-  margin: 0px;
 }
 
-body{
-  font-family: fantasy;
-  background-color: darkslategray;
+#canvas1 {
+position: absolute;
+width: 100%;
+height: 100%;
+background: radial-gradient(#8ce4ff, #5340ff)
 }
-.banner-text{
-  width: 100%;
+/*Här har det ändrats */
+.navigation {
+  background-color: black; 
+  width: auto;
   position: absolute;
 }
-.banner-text ul{
-  height: 50px;
-  float: right;
-}
-.banner-text ul li a{
-  display: inline-block;
-  padding: 40px 15px;
-  text-transform: uppercase;
-  color: white;
-  font-size: 20px;
-}
-.animation-area{
-  background: linear-gradient(to left, #3595bb, #310dd4);
-  width: 100%;
-  height: 100vh;
-}
-
-.navigation {
-  list-style-type: none;
-  width: 100%;
-  margin-bottom: 0px 0px 0px;
-  padding: 5px;
-  overflow: hidden;
-  background-color: black;
-}
+/*Här har det ändrats */
 .options {
-  float: left;
+  float: right;
   padding: none;
-}
-.links {
+  display: block;
   text-align: center;
-  padding: 20px;
+  padding: 15px;
+}
+/*Här har det ändrats */
+.links {
   color: white;
 }
-.links:hover {
-  background-color: goldenrod;
-}
-
-#rubrik1 {
-  margin: auto;
-  width: 50%;
-  font-size: 12;
-  text-align: center;
-  padding: 10px;
-  background-color: #3595bb;
-  border-style: double;
-  border-width: 5px 5px;
-}
-#witcherImage {
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-  margin-top: 10px;
-  width: 60%;
-  height: 33.6%;
-  padding: 10px;
-  border-style: groove;
-  border-width: 3px;
-  border-color: black;
-}
-#tipsRPG {
-  width: 100%;
-  max-height: none;
-  padding: none;
-  border: 5px double black;
+/*Här har det ändrats */
+.options:hover {
+  background-color:rgb(126, 124, 124);
 }
