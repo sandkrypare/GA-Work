@@ -9,7 +9,7 @@ let particlesArray;
 let mouse = {
     x:  null,
     y:  null,
-    radius: (canvas.height/160) * (canvas.width/160)
+    radius: (canvas.height/2400) * (canvas.width/2400)
 }
 
 window.addEventListener('mousemove', 
