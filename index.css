@@ -33,7 +33,7 @@ background: radial-gradient(#8ce4ff, #5340ff)
   background-color:rgb(126, 124, 124);
 }
 .Speltips {
-  position: sticky;
+  position: absolute;
   color: aliceblue;
   text-align: center;
 }
