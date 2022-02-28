@@ -35,6 +35,7 @@ background: radial-gradient(#8ce4ff, #5340ff)
 
 .Image {
   position: absolute;
-  width: auto;
-  margin-top: 25%;
+  width: 50%;
+  
+  
 }
