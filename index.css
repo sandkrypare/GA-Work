@@ -37,3 +37,12 @@ background: radial-gradient(#8ce4ff, #5340ff)
   color: white;
   text-align: center;
 }
+.box {
+  position: relative;
+}
+
+.Rubrik {
+  position: absolute;
+  top: 20px;
+  left: 30px;
+}
