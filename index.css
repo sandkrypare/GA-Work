@@ -12,7 +12,7 @@ background: radial-gradient(#8ce4ff, #5340ff)
 }
 /*Här har det ändrats */
 .navigation {
-  background-color: black; 
+  background-color: black;
   width: auto;
   position: absolute;
 }
@@ -32,20 +32,13 @@ background: radial-gradient(#8ce4ff, #5340ff)
 .options:hover {
   background-color:rgb(126, 124, 124);
 }
-.Speltips {
+h1#Speltips {
+  font-size: 100px;
+  width: 100%;
+  margin-top: 25%;
   position: absolute;
   color: white;
   text-align: center;
-}
-.box {
-  position: relative;
 }
 
-.Rubrik {
-  position: absolute;
-  margin-top: 25%;
-  left: 50%;
-  color: white;
-  text-align: center;
-  font-size: 150px;
-}
+
