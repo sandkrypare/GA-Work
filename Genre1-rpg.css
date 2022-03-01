@@ -41,3 +41,12 @@ background: radial-gradient(#8ce4ff, #5340ff)
   margin-top: 5%;
   
 }
+
+h1#Spel {
+  font-size: 100px;
+  width: 100%;
+  margin-top: 25%;
+  position: absolute;
+  color: white;
+  text-align: center;
+}
