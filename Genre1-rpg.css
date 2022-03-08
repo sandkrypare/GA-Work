@@ -36,8 +36,8 @@ background: radial-gradient(#8ce4ff, #5340ff)
 .Image {
   position: fixed;
   width: 50%;
-  margin-left: auto;
-  margin-right: auto;
+  margin-left: 37%;
+  margin-right: 40%;
   margin-top: 5%;
   
 }
