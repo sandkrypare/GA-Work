@@ -37,7 +37,7 @@ background: radial-gradient(#8ce4ff, #5340ff)
   position: fixed;
   width: 50%;
   margin-left: 37%;
-  margin-right: 37%;
+  margin-right: auto;
   margin-top: 5%;
   
 }
