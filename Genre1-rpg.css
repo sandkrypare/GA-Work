@@ -59,4 +59,5 @@ p#Beskrivning {
   position: absolute;
   color: white;
   text-align: center;
+  font-style: bold;
 }
