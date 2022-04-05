@@ -46,6 +46,7 @@ background: radial-gradient(#8ce4ff, #5340ff)
 */
 
 .Image {
+  background-image: url('the witcher.jpg"');
   background-repeat: no-repeat;
   background-attachment: fixed;
   background-position: center;
