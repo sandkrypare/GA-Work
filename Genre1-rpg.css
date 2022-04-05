@@ -33,7 +33,7 @@ background: radial-gradient(#8ce4ff, #5340ff)
 .options:hover {
   background-color:rgb(126, 124, 124);
 }
-/* 
+ 
 .Image {
   position: fixed;
   width: 100%;
@@ -43,15 +43,7 @@ background: radial-gradient(#8ce4ff, #5340ff)
   margin-top: 5%;
   
 }
-*/
 
-.Image {
-  background-image: url('the witcher.jpg"');
-  background-repeat: no-repeat;
-  background-attachment: fixed;
-  background-position: center;
-  position: absolute;
-}
 
 h1#Spel {
   font-size: 50px;
