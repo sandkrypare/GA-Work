@@ -33,7 +33,7 @@ background: radial-gradient(#8ce4ff, #5340ff)
 .options:hover {
   background-color:rgb(126, 124, 124);
 }
-
+/* 
 .Image {
   position: fixed;
   width: 100%;
@@ -42,6 +42,13 @@ background: radial-gradient(#8ce4ff, #5340ff)
   margin-right: auto;
   margin-top: 5%;
   
+}
+*/
+
+.Image {
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center;
 }
 
 h1#Spel {
