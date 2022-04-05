@@ -50,6 +50,7 @@ background: radial-gradient(#8ce4ff, #5340ff)
   background-repeat: no-repeat;
   background-attachment: fixed;
   background-position: center;
+  position: absolute;
 }
 
 h1#Spel {
