@@ -33,24 +33,27 @@ background: radial-gradient(#8ce4ff, #5340ff)
   background-color:rgb(126, 124, 124);
 }
  
-.Flex-Image {
-  width:80%;
-  min-height:80vh;
-  margin:auto;
-  border:1px solid;
+.box {
   display: flex;
   align-items: center;
   justify-content: center;
 }
 
-.Flex-Image img {
-  display: absolute;
-  width: 80%;
-  min-width:100px;
-  max-width: 350px;
-  height: auto;
+.imgwrap {
+  width: 50%;
+  /*or whatever you choose*/
   margin: auto;
-  
+}
+
+.imgwrap img {
+  display: block;
+  width: 100%;
+  max-width: 500px;
+  /*actual image width*/
+  height: auto;
+  /* maintain aspect ratio*/
+  margin: auto;
+  /*optional centering of image*/
 }
 
 
