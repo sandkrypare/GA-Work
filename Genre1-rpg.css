@@ -34,8 +34,22 @@ background: radial-gradient(#8ce4ff, #5340ff)
 }
  
 .Flex-Image {
+  width:80%;
+  min-height:80vh;
+  margin:auto;
+  border:1px solid;
   display: flex;
-  justify-content: center;
+  align-items: center;
+}
+
+.Flex-Image img {
+  display: block;
+  width: 80%;
+  min-width:100px;
+  max-width: 350px;
+  height: auto;
+  margin: auto;
+  
 }
 
 
