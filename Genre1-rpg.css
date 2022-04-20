@@ -6,8 +6,8 @@
 
 #canvas1 {
 position: absolute;
-width: auto;
-height: auto;
+max-width: auto;
+min-height: auto;
 background: radial-gradient(#8ce4ff, #5340ff)
 }
 
