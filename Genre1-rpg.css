@@ -18,7 +18,7 @@ background: radial-gradient(#8ce4ff, #5340ff)
 }
 /*Här har det ändrats */
 .options {
-  float: right;
+  float: left;
   padding: none;
   display: block;
   text-align: center;
