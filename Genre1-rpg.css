@@ -35,6 +35,7 @@ background: radial-gradient(#8ce4ff, #5340ff)
 }
  
 .box {
+  height: auto;
   display: flex;
   align-items: center;
   justify-content: center;
