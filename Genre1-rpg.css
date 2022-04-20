@@ -40,20 +40,16 @@ background: radial-gradient(#8ce4ff, #5340ff)
 }
 
 .imgwrap {
-  width: 50%;
-  /*or whatever you choose*/
+  width: 50%;/*or whatever you choose*/
   margin: auto;
 }
 
 .imgwrap img {
-  display: block;
+  display: absolute;
   width: 100%;
-  max-width: 500px;
-  /*actual image width*/
-  height: auto;
-  /* maintain aspect ratio*/
-  margin: auto;
-  /*optional centering of image*/
+  max-width: 500px; /*actual image width*/
+  height: auto; /* maintain aspect ratio*/
+  margin: auto; /*optional centering of image*/
 }
 
 
