@@ -36,9 +36,14 @@ background: radial-gradient(#8ce4ff, #5340ff)
   display: flex;
   position: absolute;
   width: auto;
+  background-color: black;
 }
 .links {
   color: white;
+}
+.options {
+  position: absolute;
+  float: right;
 }
 
 /*Här har det ändrats 
