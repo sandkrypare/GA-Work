@@ -43,6 +43,7 @@ background: radial-gradient(#8ce4ff, #5340ff)
 }
 .options {
   float: right;
+  padding: 15px;
 }
 
 /*Här har det ändrats 
