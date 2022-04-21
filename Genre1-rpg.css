@@ -35,13 +35,13 @@ background: radial-gradient(#8ce4ff, #5340ff)
 
 
 
-Här har det ändrats 
+/*Här har det ändrats 
 .navigation {
   background-color: black; 
   width: auto;
   position: absolute;
 }
-/*Här har det ändrats */ 
+/*Här har det ändrats 
 .options {
   float: right;
   padding: none;
@@ -49,13 +49,13 @@ Här har det ändrats
   text-align: center;
   padding: 15px;
 }
-/* Här har det ändrats */ 
+/* Här har det ändrats 
 .links {
   color: white;
 }
-/* Här har det ändrats*/ 
+/* Här har det ändrats
 .options:hover {
   background-color:rgb(126, 124, 124);
 }
-
+*/
 
