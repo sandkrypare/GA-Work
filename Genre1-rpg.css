@@ -57,24 +57,5 @@ background: radial-gradient(#8ce4ff, #5340ff)
 }
 
 
-h1#Spel {
-  font-size: 50px;
-  width: 100%;
-  margin-top: 20%;
-  position: absolute;
-  color: white;
-  text-align: center;
-}
-
-p#Beskrivning {
-  font-size: 15px;
-  width: 100%;
-  margin-top: 25%;
-  position: absolute;
-  color: white;
-  text-align: left;
-  font-style: bold;
-  font-size: 20px;
-}
 
 
