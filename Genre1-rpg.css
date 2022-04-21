@@ -32,7 +32,11 @@ background: radial-gradient(#8ce4ff, #5340ff)
   height: auto; /* maintain aspect ratio*/
   margin: auto; /*optional centering of image*/
 }
-
+.box1 {
+  display: flex;
+  position: absolute;
+  width: auto;
+}
 
 
 /*Här har det ändrats 
