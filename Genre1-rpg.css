@@ -40,7 +40,7 @@ body {
   display: flex;
   position: absolute;
   width: 100%;
-  background-color: black;
+  background-color: rgb(97, 97, 97);
   justify-content: center;
 }
 .links {
