@@ -45,7 +45,7 @@ background: radial-gradient(#8ce4ff, #5340ff)
 .options {
   float: right;
   padding: 20px;
-  font-family: 'Courier New', Courier, monospace;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
 /*Här har det ändrats 
