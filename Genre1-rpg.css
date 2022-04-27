@@ -12,7 +12,7 @@ background: radial-gradient(#8ce4ff, #5340ff)
 }
 */
 .box {
-  height: 60%;
+  height: 50%;
   width: 100%;
   display: flex;
   align-items: center;
