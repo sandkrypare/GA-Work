@@ -37,6 +37,7 @@ background: radial-gradient(#8ce4ff, #5340ff)
   position: absolute;
   width: 100%;
   background-color: black;
+  justify-content: center;
 }
 .links {
   color: white;
