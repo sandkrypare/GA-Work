@@ -17,6 +17,7 @@ background: radial-gradient(#8ce4ff, #5340ff)
   display: flex;
   align-items: center;
   justify-content: center;
+  position: relative;
 }
 
 .imgwrap {
