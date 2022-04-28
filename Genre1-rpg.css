@@ -27,7 +27,8 @@ body {
   height: auto; /* maintain aspect ratio*/
   margin: auto; /*optional centering of image*/
 }
-
+/* https: //www.sitepoint.com/community/t/centering-image-inside-flexbox/287444
+*/
 .box1 {
   display: flex;
   width: 100%;
