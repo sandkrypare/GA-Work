@@ -40,8 +40,7 @@ body {
   display: flex;
   width: 100%;
   background-color: rgb(97, 97, 97);
-  justify-content: space-between;
-  align-items: flex-end;
+  justify-content: end;
 }
 .links {
   color: white;
