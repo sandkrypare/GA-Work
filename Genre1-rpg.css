@@ -65,7 +65,10 @@ body {
 
 /* BESKRIVNING
 */
-
+.MainBeskrivning {
+  display: flex;
+  justify-content: space-between;
+}
 
 
 
