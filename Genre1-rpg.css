@@ -6,6 +6,8 @@
 body {
   background: rgb(147, 147, 147);
 }
+/* BILD
+*/
 .box {
   height: 50%;
   width: 100%;
@@ -28,6 +30,8 @@ body {
   margin: auto; /*optional centering of image*/
 }
 /* https: //www.sitepoint.com/community/t/centering-image-inside-flexbox/287444
+*/
+/* BILD
 */
 .box1 {
   display: flex;
