@@ -11,9 +11,13 @@ height: 100%;
 background: radial-gradient(#8ce4ff, #5340ff)
 }
 */
-
+/*
 body {
   background: lightgrey;
+}
+*/
+body{
+  background-image: linear-gradient(to left, lightgrey, rgb(146, 145, 145)); 
 }
 .box {
   height: 50%;
