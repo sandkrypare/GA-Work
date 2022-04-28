@@ -45,8 +45,11 @@ body {
   padding: 20px;
   font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
   list-style: none;
+  transition: all 0.3s ease 0s;
 }
-
+/* https: //www.google.com/search?q=ta+bort+streck+i+l%C3%A4nkar+css&oq=ta+bort+streck+i+l%C3%A4nkar+css&aqs=chrome..69i57j0i546l3.17339j0j7&sourceid=chrome&ie=UTF-8
+  https: //www.youtube.com/watch?v=PwWHL3RyQgk&ab_channel=Skillthrive
+*/
 .options:hover {
   background-color: rgb(147, 199, 199);
 }
