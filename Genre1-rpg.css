@@ -37,12 +37,14 @@ body {
 
 .links {
   color: white;
+  text-decoration: none;
 }
 
 .options {
   float: left;
   padding: 20px;
   font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  list-style: none;
 }
 
 .options:hover {
