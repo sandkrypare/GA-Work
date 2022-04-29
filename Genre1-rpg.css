@@ -65,51 +65,16 @@ body {
 
 /* BESKRIVNING
 */
-.MainBeskrivning {
+.box3 {
   display: flex;
   flex-direction:column;
   align-items: center;
 }
 
-
-
-
-/* BESKRIVNING
-*/
-
-/*Här har det ändrats 
-.navigation {
-  background-color: black; 
-  width: auto;
-  position: absolute;
-}
-/*Här har det ändrats 
-.options {
-  float: right;
-  padding: none;
-  display: block;
-  text-align: center;
-  padding: 15px;
-}
-/* Här har det ändrats 
-.links {
+.Titel {
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
   color: white;
+  font-size: 25px; 
 }
-/* Här har det ändrats
-.options:hover {
-  background-color:rgb(126, 124, 124);
-}
-*/
-/*
-#canvas1 {
-position: absolute;
-width: 100%;
-height: 100%;
-background: radial-gradient(#8ce4ff, #5340ff)
-}
-*/
-/*
-body {
-  background: lightgrey;
-}
-*/
+
+
