@@ -75,13 +75,12 @@ body {
   font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
   color: white;
   font-size: 35px;
-  margin-top: 5%; 
 }
 
 .Beskrivning {
   font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
   color: white;
   font-size: 20px;
-  margin-top: 5%;
+  margin-left: auto; 
 }
 
