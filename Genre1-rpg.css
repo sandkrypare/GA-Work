@@ -40,12 +40,11 @@ body {
 }
 
 .imgwrap2 {
-  width: 50%;
-  /*or whatever you choose*/
+  width: 50%;/*or whatever you choose*/
   margin: auto;
 }
 
-.imgwrap img {
+.img2 {
   display: block;
   width: 100%;
   max-width: 500px;/*actual image width*/
