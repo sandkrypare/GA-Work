@@ -29,6 +29,30 @@ body {
   height: auto; /* maintain aspect ratio*/
   margin: auto; /*optional centering of image*/
 }
+
+.box3 {
+  height: 50%;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+}
+
+.imgwrap2 {
+  width: 50%;
+  /*or whatever you choose*/
+  margin: auto;
+}
+
+.imgwrap img {
+  display: block;
+  width: 100%;
+  max-width: 500px;/*actual image width*/
+  height: auto;/* maintain aspect ratio*/
+  margin: auto; /*optional centering of image*/
+}
+
 /* https: //www.sitepoint.com/community/t/centering-image-inside-flexbox/287444
 */
 /* BILD
