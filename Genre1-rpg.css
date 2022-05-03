@@ -109,3 +109,23 @@ body {
   width: 50%;
 }
 
+.box4 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.Titel2 {
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  color: white;
+  font-size: 35px;
+}
+
+.Beskrivning2 {
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  color: white;
+  font-size: 20px;
+  margin-left: 20px;
+  margin-top: 10px;
+  width: 50%;
+}
