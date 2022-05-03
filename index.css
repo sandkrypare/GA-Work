@@ -44,7 +44,7 @@ body {
   display: flex;
   flex-direction: column;
   align-items: center;
-  margin-top: 20%;
+  margin-top: 5%;
 }
 
 .Titel {
@@ -57,7 +57,7 @@ body {
 .Beskrivning {
   font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
   color: white;
-  font-size: 35px;
+  font-size: 25px;
   margin-left: 20px;
   margin-top: 10px;
   width: 50%;
