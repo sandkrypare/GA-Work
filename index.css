@@ -38,3 +38,29 @@ body {
   https: //www.google.com/search?q=ta+bort+streck+i+l%C3%A4nkar+css&oq=ta+bort+streck+i+l%C3%A4nkar+css&aqs=chrome..69i57j0i546l3.17339j0j7&sourceid=chrome&ie=UTF-8
   https: //www.youtube.com/watch?v=PwWHL3RyQgk&ab_channel=Skillthrive
 */
+/* BESKRIVNING
+*/
+.box2 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.Titel {
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  color: white;
+  font-size: 35px;
+  margin-top: 15px;
+}
+
+.Beskrivning {
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  color: white;
+  font-size: 20px;
+  margin-left: 20px;
+  margin-top: 10px;
+  width: 50%;
+}
+/* 
+  BESKRIVNING
+*/
