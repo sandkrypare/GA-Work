@@ -4,31 +4,147 @@
   box-sizing: border-box;
 }
 
-#canvas1 {
-position: absolute;
-width: 100%;
-height: 100%;
-background: radial-gradient(#8ce4ff, #5340ff)
+body {
+  background: rgb(147, 147, 147);
 }
-/*Här har det ändrats */
-.navigation {
-  background-color: black; 
-  width: auto;
-  position: absolute;
+
+/* BILD
+*/
+.box {
+  height: 50%;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
 }
-/*Här har det ändrats */
-.options {
-  float: right;
-  padding: none;
+
+.imgwrap {
+  width: 50%;
+  /*or whatever you choose*/
+  margin: auto;
+}
+
+.imgwrap img {
   display: block;
-  text-align: center;
-  padding: 15px;
+  width: 100%;
+  max-width: 500px;
+  /*actual image width*/
+  height: auto;
+  /* maintain aspect ratio*/
+  margin: auto;
+  /*optional centering of image*/
 }
-/*Här har det ändrats */
+
+.box3 {
+  height: 50%;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  margin-top: 30px;
+}
+
+.imgwrap2 {
+  width: 50%;
+  /*or whatever you choose*/
+  margin: auto;
+}
+
+.img2 {
+  display: block;
+  width: 100%;
+  max-width: 500px;
+  /*actual image width*/
+  height: auto;
+  /* maintain aspect ratio*/
+  margin: auto;
+  /*optional centering of image*/
+}
+
+/* https: //www.sitepoint.com/community/t/centering-image-inside-flexbox/287444
+*/
+/* BILD
+*/
+
+/* HEADER
+*/
+.box1 {
+  display: flex;
+  width: 100%;
+  background-color: rgb(97, 97, 97);
+  justify-content: start;
+}
+
 .links {
   color: white;
+  text-decoration: none;
 }
-/*Här har det ändrats */
+
+.options {
+  float: left;
+  padding: 20px;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  list-style: none;
+  transition: all 0.3s ease 0s;
+}
+
 .options:hover {
-  background-color:rgb(126, 124, 124);
+  background-color: rgb(147, 199, 199);
 }
+
+/* HEADER 
+  https: //www.google.com/search?q=ta+bort+streck+i+l%C3%A4nkar+css&oq=ta+bort+streck+i+l%C3%A4nkar+css&aqs=chrome..69i57j0i546l3.17339j0j7&sourceid=chrome&ie=UTF-8
+  https: //www.youtube.com/watch?v=PwWHL3RyQgk&ab_channel=Skillthrive
+*/
+
+/* BESKRIVNING
+*/
+.box2 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.Titel {
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  color: white;
+  font-size: 35px;
+  margin-top: 15px;
+}
+
+.Beskrivning {
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  color: white;
+  font-size: 20px;
+  margin-left: 20px;
+  margin-top: 10px;
+  width: 50%;
+}
+
+.box4 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.Titel2 {
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  color: white;
+  font-size: 35px;
+  margin-top: 15px;
+}
+
+.Beskrivning2 {
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  color: white;
+  font-size: 20px;
+  margin-left: 20px;
+  margin-top: 10px;
+  width: 50%;
+}
+
+/*
+  BESKRIVNING
+*/
