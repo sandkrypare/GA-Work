@@ -20,8 +20,7 @@ body {
 }
 
 .imgwrap {
-  width: 50%;
-  /*or whatever you choose*/
+  width: 50%; /*or whatever you choose*/
   margin: auto;
 }
 
@@ -31,6 +30,7 @@ body {
   max-width: 500px; /*actual image width*/
   height: auto; /* maintain aspect ratio*/
   margin: auto; /*optional centering of image*/
+  background-blend-mode: multiply;
 }
 /*
   BILD
