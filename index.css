@@ -78,14 +78,14 @@ body {
 .Titel {
   font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
   color: white;
-  font-size: 35px;
+  font-size: 45px;
   margin-top: 15px;
 }
 
 .Beskrivning {
   font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
   color: white;
-  font-size: 20px;
+  font-size: 30px;
   margin-left: 20px;
   margin-top: 10px;
   width: 50%;
