@@ -72,20 +72,20 @@ body {
   display: flex;
   flex-direction: column;
   align-items: center;
-  margin-top: 10%;
+  
 }
 
 .Titel {
   font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
   color: white;
-  font-size: 55px;
+  font-size: 35px;
   margin-top: 15px;
 }
 
 .Beskrivning {
   font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
   color: white;
-  font-size: 25px;
+  font-size: 20px;
   margin-left: 20px;
   margin-top: 10px;
   width: 50%;
