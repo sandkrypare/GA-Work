@@ -30,7 +30,6 @@ body {
   max-width: 500px; /*actual image width*/
   height: auto; /* maintain aspect ratio*/
   margin: auto; /*optional centering of image*/
-  background-blend-mode: multiply;
 }
 /*
   BILD
